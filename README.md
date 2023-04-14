@@ -1,5 +1,7 @@
 # Mental Health and Employment [Team Two]
 
+![Alt text](../../poster-1-814x445.png)
+
 ## List of Technologies
 - pgAdmin with postgresSQL
 - Jupyter Notebooks with Python
