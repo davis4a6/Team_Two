@@ -1,6 +1,6 @@
 # Mental Health and Employment [Team Two]
 
-![Alt text](../../poster-1-814x445.png)
+![Alt text](../../Workplace-Mental-Health-scaled.jpeg)
 
 ## List of Technologies
 - pgAdmin with postgresSQL
