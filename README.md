@@ -16,8 +16,13 @@ We created a Slack group in order to communicate and share links with each other
 ## Overview
 
 The purpose of this analysis is to use Supervised Machine Learning to understand whether or not employers are providing healthcare benefits that includes mental healthcare in the workplace.
-Our project would like to examine any relationships between mental health and employment.  The dataset selected was survey data that asked participants to talk about their experiences with healthcare and mental health in the workplace. 
+We would also like to examine any relationships between mental health and employment.  
 
+### Data Source 
+
+The dataset selected was survey data that asked participants to talk about their experiences with healthcare and mental health in the workplace. We found the Open Sourcing Mental Illness(OSMI) website[OSMI link](https://osmihelp.org/research.html) dedicated to getting people to talk about mental health and the resources provided to the tech and open source communities. Our group felt that this would be would be a decent representation of relationships of mental health and employment. 
+
+### Question(s) 
 
 ## Results
 
