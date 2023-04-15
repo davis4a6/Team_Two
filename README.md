@@ -9,7 +9,9 @@
 - Tableau or HTML, CSS, JAVASCRIPT
 
 ## Overview
-The purpose of this anaylsis is to use Supervised Machine Learning to understand whether or not employers are providing healthcare benefits that includes mental healthcare in the workplace.
+The purpose of this analysis is to use Supervised Machine Learning to understand whether or not employers are providing healthcare benefits that includes mental healthcare in the workplace.
+Our project would like to examine any relationships between mental health and employment.  The dataset selected was survey data that asked participants to talk about their experiences with healthcare and mental health in the workplace. 
+
 
 ## Results
 
