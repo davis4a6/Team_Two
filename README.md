@@ -6,7 +6,7 @@
 
 - pgAdmin with postgresSQL
 - Jupyter Notebooks with Python
-- Visual Studio Code or Google Collab
+- Visual Studio Code
 - Tableau or HTML, CSS, JAVASCRIPT
 
 ## Communication Plan
