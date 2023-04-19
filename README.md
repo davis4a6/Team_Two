@@ -11,7 +11,7 @@
 
 ## Communication Plan
 
-We created a Slack group in order to communicate and share links with each other. We also scheduled a Zoom session to meet on Sunday 4/16/23 in order to discuss where we are at with our project and what tasks we still need to accomplish so that we can get our Segment 1 Deliverable completed.
+Our team created a group on Slack in order to communicate and share links with each other. We also created a recurring Zoom link and session to meet on a weekly basis and discuss where we are at with our project, as well as what tasks we still need to accomplish to get each deliverable completed. Our team has been really open with working together and offering help when needed.
 
 ## Overview
 
