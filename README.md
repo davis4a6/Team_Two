@@ -33,7 +33,11 @@ Does your employer provide healthcare benefits that include mental healthcare?
 
 Preliminary Data Preprocessing
 1. Correlation Matrix
+![Alt text](images/CorrelationMatrix.PNG)
+
 2. Heat Map
+![Alt text](images/Heatmap.PNG)
+
 3. Plots
 
 ### Feature Selection and Engineering
