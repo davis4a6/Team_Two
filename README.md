@@ -1,5 +1,4 @@
 # Mental Health and Employment 
-## [Team Two] 
 ### Bradley Caldwell, Ariana Davis, and Stacey Marotta
 
 ![Alt text](images/Workplace-Mental-Health-scaled.jpeg)
