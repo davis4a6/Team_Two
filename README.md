@@ -32,9 +32,9 @@ Does your employer provide healthcare benefits that include mental healthcare?
 ### Data Exploration
 
 Preliminary Data Preprocessing
-    1. Correlation Matrix
-    2. Heat Map
-    3. Plots
+1. Correlation Matrix
+2. Heat Map
+3. Plots
 
 ### Feature Selection and Engineering
 
@@ -53,13 +53,13 @@ We selected our features based on three things:
 
 ![Alt text](images/Features.PNG)
 
-Feature Engineering
+### Feature Engineering
 
 There were a number of things we had to do in order to transform the given data into a form that was easier to interpret. First, we started off by renaming the columns so they could be more concise and easier to read while coding.
 
 When choosing features we had columns with:
-    - Categorical Features; since algorithms are not designed to process textual data we decided to use one-hot encoding
-    - Multiple missing values; we used fillna() to replace all null values with NA and dropped one column with over 1000 null values
+- Categorical Features; since algorithms are not designed to process textual data we decided to use one-hot encoding
+- Multiple missing values; we used fillna() to replace all null values with NA and dropped one column with over 1000 null values
 
 ![Alt text](images/FeatureEngineering.PNG)
 
@@ -67,7 +67,7 @@ When choosing features we had columns with:
 
 ![Alt text](images/FeatureEngineering2.PNG)
 
-    - Our target was a categorical value as well, so we converted it to an integer to avoid being encoded
+- Our target was a categorical value as well, so we converted it to an integer to avoid being encoded
 
 ![Alt text](images/FeatureEngineering3.PNG)
 
