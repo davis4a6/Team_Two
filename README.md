@@ -1,5 +1,5 @@
 # Mental Health and Employment 
-### Bradley Caldwell, Ariana Davis, and Stacey Marotta
+***Bradley Caldwell, Ariana Davis, and Stacey Marotta***
 
 ![Alt text](images/Workplace-Mental-Health-scaled.jpeg)
 
@@ -63,7 +63,7 @@ There were a number of things we had to do in order to transform the given data 
 
 When choosing features we had columns with:
 - Categorical Features; since algorithms are not designed to process textual data we decided to use one-hot encoding
-- Multiple missing values; we used fillna() to replace all null values with NA and dropped one column with over 1000 null values
+- Multiple missing values; we used `fillna()` to replace all null values with NA and dropped one column with over 1000 null values
 
 ![Alt text](images/FeatureEngineering.PNG)
 
