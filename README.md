@@ -12,7 +12,7 @@
 
 ## Communication Plan
 
-Our team created a group on **Slack** in order to communicate and share links with each other. We also created a recurring **Zoom** link and session to meet on a weekly basis and discuss where we are at with our project, as well as what tasks we still need to accomplish to get each deliverable completed. Our team has been really open with working together and offering help to one another when needed.
+Our team created a group on `Slack` in order to communicate and share links with each other. We also created a recurring `Zoom` link and session to meet on a weekly basis and discuss where we are at with our project, as well as what tasks we still need to accomplish to get each deliverable completed. Our team has been really open with working together and offering help to one another when needed.
 
 ## Part 1 - Project Intro and Data Exploration
 
@@ -108,7 +108,7 @@ The MENTAL_HEALTH table consists of:
 
 ### Training and Testing Sets
 
-The training and testing sets were selected using **scikit learn’s** `train_test_split()`.
+The training and testing sets were selected using `scikit learn’s` `train_test_split()`.
 Random seed 42 was selected as it’s the answer to the “Great Question” of “Life, the Universe and Everything”.
 
 ### Machine Learning Model
