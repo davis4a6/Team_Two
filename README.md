@@ -37,6 +37,10 @@ The MENTAL_HEALTH table consists of: TECH_COMPANY, MENTAL_HEALTH_OPTIONS_UNDER_C
 ![FinalDB2](https://user-images.githubusercontent.com/45715246/232633577-0290d48b-cd6d-441c-99a2-7eea74239909.png)
 
 
+### Tableau Dashboard 
+https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
+
+
 ## Results
 
 ## Summary
