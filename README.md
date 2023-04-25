@@ -105,6 +105,11 @@ The MENTAL_HEALTH table consists of:
 ![Alt text](images/Database.PNG)
 
 ## Part 2 - Model and Analysis
+### Tableau Dashboard 
+https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
+
+
+## Results
 
 ### Training and Testing Sets
 
