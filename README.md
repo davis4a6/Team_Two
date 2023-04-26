@@ -112,8 +112,6 @@ The MENTAL_HEALTH table consists of:
 
 
 ## Part 2 - Model and Analysis
-### Tableau Dashboard 
-https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
 
 
 ## Results
@@ -131,9 +129,14 @@ The model showed a XX accuracy score. This shows that when it comes to predictin
 
 ## Part 3 - Summary
 
-### Storyboard
+## Storyboard
 
-### Dashboard Demo
+
+![Screenshot 2023-04-26 182805](https://user-images.githubusercontent.com/45715246/234716479-acbe3326-7119-4f02-9c27-f8c4728290af.png)
+
+
+
+## Tableau Dashboard Demo
 
 
 https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
