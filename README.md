@@ -133,8 +133,6 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 
 
 ## Part 2 - Model and Analysis
-### Tableau Dashboard 
-https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
 
 
 ## Results
@@ -160,6 +158,9 @@ The model showed a XX accuracy score. This shows that when it comes to predictin
 
 
 ## Tableau Dashboard Demo
+
+
+![Screenshot 2023-04-26 181157](https://user-images.githubusercontent.com/45715246/234727073-bf719867-d485-4e15-9647-67659da67965.png)
 
 
 https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
