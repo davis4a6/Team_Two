@@ -138,9 +138,10 @@ The model showed a XX accuracy score. This shows that when it comes to predictin
 
 ### Tableau Dashboard 
 
-https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
+https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
 
-![Alt text](images/DashboardDemo.PNG)
+![Screenshot 2023-04-26 181157](https://user-images.githubusercontent.com/45715246/234715214-701dad27-fbc6-4684-b26a-497e2f3986bf.png)
+
 
 ### Reflections and Recommendations for Future Analyses
 
