@@ -82,12 +82,15 @@ When choosing features we had columns with:
 ### Database
 
 The data was placed into two separate tables: 
+
 - EMPLOYEES, and MENTAL_HEALTH. 
 
 The EMPLOYEES table consists of: 
+
 - ID, AGE, GENDER, COUNTRY_WORKING_IN, WFH columns.  
 
 The MENTAL_HEALTH table consists of: 
+
 - TECH_COMPANY, 
 - MENTAL_HEALTH_OPTIONS_UNDER_COVERAGE, 
 - EMPLOYER_OFFER_MENTAL_HEALTH_RESOURCES, 
