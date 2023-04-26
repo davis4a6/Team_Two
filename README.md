@@ -128,9 +128,11 @@ Random seed 42 was selected as it’s the answer to the “Great Question” of 
 
 ### Machine Learning Model
 
+### Hyper Parameter Tuning
+
 ### Results
 
-The model showed a XX accuracy score. This shows that when it comes to predicting whether a company provides mental health coverage as a benefit...
+The model showed a 0.83 accuracy score. This shows that when it comes to predicting whether a company provides mental health coverage as a benefit...
 
 ## Part 3 - Summary
 
