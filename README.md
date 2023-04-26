@@ -79,8 +79,16 @@ When choosing features we had columns with:
 
 ![Alt text](images/FeatureEngineering4.PNG)
 
-### Database
+## Database
 
+
+First, an ERD was created with QuickDB to create the tables, columns, and primary/foreign keys to use for the database. 
+
+
+![Alt text](images/Database.PNG)
+
+
+This ERD was then exported into PGAdmin to create the Team_Two Database.  After the schema was created, the data from the Mental_Health_Data.csv was imported into the appropriate tables: EMPLOYEES, and MENTAL_HEALTH. 
 
 First, an ERD was created with QuickDB to create the tables, columns, and primary/foreign keys to use for the database. 
 
@@ -92,9 +100,11 @@ This ERD was then exported into PGAdmin to create the Team_Two Database.  After 
 
 
 The EMPLOYEES table consists of: 
+
 - ID, AGE, GENDER, COUNTRY_WORKING_IN, WFH columns.  
 
 The MENTAL_HEALTH table consists of: 
+
 - TECH_COMPANY, 
 - MENTAL_HEALTH_OPTIONS_UNDER_COVERAGE, 
 - EMPLOYER_OFFER_MENTAL_HEALTH_RESOURCES, 
@@ -110,6 +120,12 @@ The MENTAL_HEALTH table consists of:
 ![FinalDB2](https://user-images.githubusercontent.com/45715246/232633577-0290d48b-cd6d-441c-99a2-7eea74239909.png)
 
 
+By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column was completed.  Below are the results:
+
+![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
+
+
+
 
 By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column was completed.  Below are the results:
 
@@ -117,6 +133,8 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 
 
 ## Part 2 - Model and Analysis
+### Tableau Dashboard 
+https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
 
 
 ## Results
@@ -147,7 +165,7 @@ The model showed a XX accuracy score. This shows that when it comes to predictin
 https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
 
 
-![Screenshot 2023-04-26 181157](https://user-images.githubusercontent.com/45715246/234716059-55ec984d-ddf5-4837-81d3-ed1b07522228.png)
+### Dashboard Demo
 
 
 ### Reflections and Recommendations for Future Analyses
