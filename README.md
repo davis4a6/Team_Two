@@ -155,7 +155,7 @@ The model showed a XX accuracy score. This shows that when it comes to predictin
 ## Storyboard
 
 
-![Screenshot 2023-04-26 182805](https://user-images.githubusercontent.com/45715246/234716479-acbe3326-7119-4f02-9c27-f8c4728290af.png)
+![Screenshot 2023-04-26 194116](https://user-images.githubusercontent.com/45715246/234725330-556ebe2f-3565-40a6-9ee9-a3ecbd8ff120.png)
 
 
 
