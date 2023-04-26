@@ -79,7 +79,7 @@ When choosing features we had columns with:
 
 ![Alt text](images/FeatureEngineering4.PNG)
 
-### Database
+## Database
 
 
 First, an ERD was created with QuickDB to create the tables, columns, and primary/foreign keys to use for the database. 
