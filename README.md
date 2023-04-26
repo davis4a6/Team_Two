@@ -112,23 +112,14 @@ The MENTAL_HEALTH table consists of:
 ![FinalDB2](https://user-images.githubusercontent.com/45715246/232633577-0290d48b-cd6d-441c-99a2-7eea74239909.png)
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> Stacey
 By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column was completed.  Below are the results:
 
 ![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
 
-<<<<<<< HEAD
 
 
 ## Part 2 - Model and Analysis
-=======
-
-## Part 2 - Model and Analysis
-
->>>>>>> Stacey
 
 ## Results
 
@@ -147,12 +138,9 @@ The model showed a XX accuracy score. This shows that when it comes to predictin
 
 ## Storyboard
 
-<<<<<<< HEAD
 ### Tableau Dashboard 
 
 https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
-=======
->>>>>>> Stacey
 
 ![Screenshot 2023-04-26 182805](https://user-images.githubusercontent.com/45715246/234716479-acbe3326-7119-4f02-9c27-f8c4728290af.png)
 
