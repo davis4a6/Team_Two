@@ -81,8 +81,15 @@ When choosing features we had columns with:
 
 ### Database
 
-The data was placed into two separate tables: 
-- EMPLOYEES, and MENTAL_HEALTH. 
+
+First, an ERD was created with QuickDB to create the tables, columns, and primary/foreign keys to use for the database. 
+
+
+![Alt text](images/Database.PNG)
+
+
+This ERD was then exported into PGAdmin to create the Team_Two Database.  After the schema was created, the data from the Mental_Health_Data.csv was imported into the appropriate tables: EMPLOYEES, and MENTAL_HEALTH. 
+
 
 The EMPLOYEES table consists of: 
 - ID, AGE, GENDER, COUNTRY_WORKING_IN, WFH columns.  
@@ -128,7 +135,12 @@ The model showed a XX accuracy score. This shows that when it comes to predictin
 
 ### Dashboard Demo
 
-![Alt text](images/DashboardDemo.PNG)
+
+https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
+
+
+![Screenshot 2023-04-26 181157](https://user-images.githubusercontent.com/45715246/234716059-55ec984d-ddf5-4837-81d3-ed1b07522228.png)
+
 
 ### Reflections and Recommendations for Future Analyses
 
