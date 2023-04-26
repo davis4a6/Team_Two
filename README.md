@@ -109,7 +109,7 @@ The MENTAL_HEALTH table consists of:
 
 ![FinalDB2](https://user-images.githubusercontent.com/45715246/232633577-0290d48b-cd6d-441c-99a2-7eea74239909.png)
 
-![Alt text](images/Database.PNG)
+
 
 ## Part 2 - Model and Analysis
 ### Tableau Dashboard 
