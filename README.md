@@ -105,6 +105,12 @@ The MENTAL_HEALTH table consists of:
 
 ![FinalDB2](https://user-images.githubusercontent.com/45715246/232633577-0290d48b-cd6d-441c-99a2-7eea74239909.png)
 
+
+We used the query tool in PGAdmin to do a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column.  Below are the results:
+
+![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
+
+
 ![Alt text](images/Database.PNG)
 
 ## Part 2 - Model and Analysis
