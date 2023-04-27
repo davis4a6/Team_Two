@@ -40,8 +40,6 @@ Preliminary Data Preprocessing
 
 ![Alt text](images/Heatmap.PNG)
 
-3. Plots
-
 ### Feature Selection and Engineering
 
 We selected our features based on three things:
@@ -73,12 +71,6 @@ When choosing features we had columns with:
 
 ![Alt text](images/FeatureEngineering2.PNG)
 
-- Our target was a categorical value as well, so we converted it to an integer to avoid being encoded
-
-![Alt text](images/FeatureEngineering3.PNG)
-
-![Alt text](images/FeatureEngineering4.PNG)
-
 ## Database
 
 
@@ -90,9 +82,13 @@ First, an ERD was created with QuickDB to create the tables, columns, and primar
 
 This ERD was then exported into PGAdmin to create the Team_Two Database.  After the schema was created, the data from the Mental_Health_Data.csv was imported into the appropriate tables: EMPLOYEES, and MENTAL_HEALTH. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> origin/Stacey
+=======
+
+>>>>>>> origin/Bradley
 
 The EMPLOYEES table consists of: 
 
@@ -116,13 +112,18 @@ The MENTAL_HEALTH table consists of:
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> origin/Stacey
+=======
+
+>>>>>>> origin/Bradley
 By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column was completed.  Below are the results:
 
 ![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -132,13 +133,17 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 ## Part 2 - Model and Analysis
 
 >>>>>>> origin/Stacey
+=======
+
+
+## Part 2 - Model and Analysis
+>>>>>>> origin/Bradley
 
 ## Results
 
 ### Training and Testing Sets
 
 The training and testing sets were selected using `scikit learn’s` `train_test_split()`.
-Random seed 42 was selected as it’s the answer to the “Great Question” of “Life, the Universe and Everything”.
 
 ### Machine Learning Model
 
@@ -146,12 +151,19 @@ Random seed 42 was selected as it’s the answer to the “Great Question” of 
 
 ### Results
 
+<<<<<<< HEAD
 The model showed a 0.83 accuracy score. This shows that when it comes to predicting whether a company provides mental health coverage as a benefit...
+=======
+The gradient boosting model showed a 0.83 accuracy score.
+
+![ML](images/FP_ML_acc.png)
+>>>>>>> origin/Bradley
 
 ## Part 3 - Summary
 
 ## Storyboard
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### Tableau Dashboard 
 
@@ -164,6 +176,13 @@ https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProje
 ![Screenshot 2023-04-26 194116](https://user-images.githubusercontent.com/45715246/234725330-556ebe2f-3565-40a6-9ee9-a3ecbd8ff120.png)
 
 
+=======
+![story board](images/FP_story.png)
+
+### Tableau Dashboard 
+
+https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
+>>>>>>> origin/Bradley
 
 ## Tableau Dashboard Demo
 
