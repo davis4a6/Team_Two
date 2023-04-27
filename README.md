@@ -73,11 +73,7 @@ When choosing features we had columns with:
 
 ![Alt text](images/FeatureEngineering2.PNG)
 
-- Our target was a categorical value as well, so we converted it to an integer to avoid being encoded
 
-![Alt text](images/FeatureEngineering3.PNG)
-
-![Alt text](images/FeatureEngineering4.PNG)
 
 ## Database
 
@@ -90,13 +86,6 @@ First, an ERD was created with QuickDB to create the tables, columns, and primar
 
 This ERD was then exported into PGAdmin to create the Team_Two Database.  After the schema was created, the data from the Mental_Health_Data.csv was imported into the appropriate tables: EMPLOYEES, and MENTAL_HEALTH. 
 
-First, an ERD was created with QuickDB to create the tables, columns, and primary/foreign keys to use for the database. 
-
-
-![Alt text](images/Database.PNG)
-
-
-This ERD was then exported into PGAdmin to create the Team_Two Database.  After the schema was created, the data from the Mental_Health_Data.csv was imported into the appropriate tables: EMPLOYEES, and MENTAL_HEALTH. 
 
 >>>>>>> origin/Stacey
 
@@ -130,11 +119,6 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 ![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
 
 
-
-
-By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column was completed.  Below are the results:
-
-![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
 
 
 ## Part 2 - Model and Analysis
@@ -177,6 +161,9 @@ https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProje
 
 
 ## Tableau Dashboard Demo
+
+
+![Screenshot 2023-04-26 200714](https://user-images.githubusercontent.com/45715246/234727991-8701a846-55f0-41ee-899e-afa5205cceff.png)
 
 
 https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
