@@ -135,9 +135,6 @@ The gradient boosting model showed a 0.83 accuracy score.
 
 ![story board](images/FP_story.png)
 
-### Tableau Dashboard 
-
-https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
 
 ## Tableau Dashboard Demo
 
@@ -150,7 +147,7 @@ https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProje
 
 ### Dashboard Demo
 
->>>>>>>>> Temporary merge branch 2
+
 
 ### Reflections and Recommendations for Future Analyses
 
