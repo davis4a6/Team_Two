@@ -73,11 +73,7 @@ When choosing features we had columns with:
 
 ![Alt text](images/FeatureEngineering2.PNG)
 
-- Our target was a categorical value as well, so we converted it to an integer to avoid being encoded
 
-![Alt text](images/FeatureEngineering3.PNG)
-
-![Alt text](images/FeatureEngineering4.PNG)
 
 ## Database
 
