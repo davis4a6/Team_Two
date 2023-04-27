@@ -73,12 +73,6 @@ When choosing features we had columns with:
 
 ![Alt text](images/FeatureEngineering2.PNG)
 
-- Our target was a categorical value as well, so we converted it to an integer to avoid being encoded
-
-![Alt text](images/FeatureEngineering3.PNG)
-
-![Alt text](images/FeatureEngineering4.PNG)
-
 ## Database
 
 
@@ -126,13 +120,12 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 ### Training and Testing Sets
 
 The training and testing sets were selected using `scikit learn’s` `train_test_split()`.
-Random seed 42 was selected as it’s the answer to the “Great Question” of “Life, the Universe and Everything”.
 
 ### Machine Learning Model
 
 ### Results
 
-The model showed a XX accuracy score. This shows that when it comes to predicting whether a company provides mental health coverage as a benefit...
+The gradient boosting model showed a 0.83 accuracy score.
 
 ## Part 3 - Summary
 
