@@ -127,11 +127,6 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 
 
 
-By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column was completed.  Below are the results:
-
-![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
-
-
 ## Part 2 - Model and Analysis
 
 
