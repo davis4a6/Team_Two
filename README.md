@@ -98,6 +98,7 @@ First, an ERD was created with QuickDB to create the tables, columns, and primar
 
 This ERD was then exported into PGAdmin to create the Team_Two Database.  After the schema was created, the data from the Mental_Health_Data.csv was imported into the appropriate tables: EMPLOYEES, and MENTAL_HEALTH. 
 
+>>>>>>> origin/Stacey
 
 The EMPLOYEES table consists of: 
 
@@ -120,6 +121,10 @@ The MENTAL_HEALTH table consists of:
 ![FinalDB2](https://user-images.githubusercontent.com/45715246/232633577-0290d48b-cd6d-441c-99a2-7eea74239909.png)
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Stacey
 By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column was completed.  Below are the results:
 
 ![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
@@ -133,9 +138,11 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 
 
 ## Part 2 - Model and Analysis
-### Tableau Dashboard 
-https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
+=========
 
+## Part 2 - Model and Analysis
+
+>>>>>>>>> Temporary merge branch 2
 
 ## Results
 
@@ -146,14 +153,24 @@ Random seed 42 was selected as it’s the answer to the “Great Question” of 
 
 ### Machine Learning Model
 
+### Hyper Parameter Tuning
+
 ### Results
 
-The model showed a XX accuracy score. This shows that when it comes to predicting whether a company provides mental health coverage as a benefit...
+The model showed a 0.83 accuracy score. This shows that when it comes to predicting whether a company provides mental health coverage as a benefit...
 
 ## Part 3 - Summary
 
 ## Storyboard
 
+<<<<<<<<< Temporary merge branch 1
+### Tableau Dashboard 
+
+https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
+
+![Screenshot 2023-04-26 181157](https://user-images.githubusercontent.com/45715246/234715214-701dad27-fbc6-4684-b26a-497e2f3986bf.png)
+
+=========
 
 ![Screenshot 2023-04-26 194116](https://user-images.githubusercontent.com/45715246/234725330-556ebe2f-3565-40a6-9ee9-a3ecbd8ff120.png)
 
@@ -167,6 +184,7 @@ https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProje
 
 ### Dashboard Demo
 
+>>>>>>>>> Temporary merge branch 2
 
 ### Reflections and Recommendations for Future Analyses
 
