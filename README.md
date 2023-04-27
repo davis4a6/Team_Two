@@ -81,14 +81,7 @@ First, an ERD was created with QuickDB to create the tables, columns, and primar
 
 
 This ERD was then exported into PGAdmin to create the Team_Two Database.  After the schema was created, the data from the Mental_Health_Data.csv was imported into the appropriate tables: EMPLOYEES, and MENTAL_HEALTH. 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/Stacey
-=======
-
->>>>>>> origin/Bradley
 
 The EMPLOYEES table consists of: 
 
@@ -111,33 +104,14 @@ The MENTAL_HEALTH table consists of:
 ![FinalDB2](https://user-images.githubusercontent.com/45715246/232633577-0290d48b-cd6d-441c-99a2-7eea74239909.png)
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/Stacey
-=======
-
->>>>>>> origin/Bradley
 By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the MENTAL_HEALTH table on the ID column was completed.  Below are the results:
 
 ![Screenshot 2023-04-26 172055](https://user-images.githubusercontent.com/45715246/234706271-1d507509-0b1d-4a42-96c2-3d66a0db9134.png)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
 ## Part 2 - Model and Analysis
-=======
-
-## Part 2 - Model and Analysis
-
->>>>>>> origin/Stacey
-=======
-
-
-## Part 2 - Model and Analysis
->>>>>>> origin/Bradley
 
 ## Results
 
@@ -147,42 +121,21 @@ The training and testing sets were selected using `scikit learn’s` `train_test
 
 ### Machine Learning Model
 
-### Hyper Parameter Tuning
-
 ### Results
 
-<<<<<<< HEAD
-The model showed a 0.83 accuracy score. This shows that when it comes to predicting whether a company provides mental health coverage as a benefit...
-=======
 The gradient boosting model showed a 0.83 accuracy score.
 
 ![ML](images/FP_ML_acc.png)
->>>>>>> origin/Bradley
 
 ## Part 3 - Summary
 
 ## Storyboard
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Tableau Dashboard 
-
-https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
-
-![Screenshot 2023-04-26 181157](https://user-images.githubusercontent.com/45715246/234715214-701dad27-fbc6-4684-b26a-497e2f3986bf.png)
-
-=======
-
-![Screenshot 2023-04-26 194116](https://user-images.githubusercontent.com/45715246/234725330-556ebe2f-3565-40a6-9ee9-a3ecbd8ff120.png)
-
-
-=======
 ![story board](images/FP_story.png)
 
 ### Tableau Dashboard 
 
 https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
->>>>>>> origin/Bradley
 
 ## Tableau Dashboard Demo
 
@@ -192,7 +145,6 @@ https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProje
 
 ![Screenshot 2023-04-26 181157](https://user-images.githubusercontent.com/45715246/234716059-55ec984d-ddf5-4837-81d3-ed1b07522228.png)
 
->>>>>>> origin/Stacey
 
 ### Reflections and Recommendations for Future Analyses
 
