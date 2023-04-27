@@ -40,8 +40,6 @@ Preliminary Data Preprocessing
 
 ![Alt text](images/Heatmap.PNG)
 
-3. Plots
-
 ### Feature Selection and Engineering
 
 We selected our features based on three things:
@@ -127,17 +125,17 @@ The training and testing sets were selected using `scikit learn’s` `train_test
 
 The gradient boosting model showed a 0.83 accuracy score.
 
+![ML](images/FP_ML_acc.png)
+
 ## Part 3 - Summary
 
 ## Storyboard
 
+![story board](images/FP_story.png)
+
 ### Tableau Dashboard 
 
 https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
-
-![Screenshot 2023-04-26 182805](https://user-images.githubusercontent.com/45715246/234716479-acbe3326-7119-4f02-9c27-f8c4728290af.png)
-
-
 
 ## Tableau Dashboard Demo
 
