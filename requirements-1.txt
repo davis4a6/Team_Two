@@ -1,0 +1,13 @@
+pandas = version
+numpy
+hvplot.pandas
+hvplot.dask
+pathlib import Path
+collections import Counter
+matplotlib
+matplotlib.pyplot
+warnings
+sklearn ?.metrics, .model_selection, .preprocessing, linear_model
+seaborn
+config import password
+sqlalchemy
