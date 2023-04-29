@@ -123,7 +123,26 @@ The training and testing sets were selected using `scikit learn’s` `train_test
 
 ### Hyper Parameter Tuning
 
+## Results
+
+
+### Training and Testing Sets
+
+The training and testing sets were selected using `scikit learn’s` `train_test_split()`.
+
+### Machine Learning Model
+
+The output to our question is a binary.  In this case, yes or no are our binary outputs. Our data included a lot of categorical data, so an encoder was required.  Originally, we used the one hot encoder. The outputs of our model showed little to no variation between different algorithms.  We swapped to an ordinal encoder, and the results between algorithms showed more variation.  This is important to establish the reliability of our algorithm.
+
+Classification algorithms are know to accurately predict binary outputs, so that is where we started our algorithm search.  There are several common classification algorithms such as logistic regression and random forests.  The team decided to start with logistic regression, and based on the results it did an okay job at predicting the proper result based on our train and test split.  The logical next step was to try out the random forest.  The results were better as hyper-parameters were not optimized.
+
+Hyperparameter training was ran on several different algorithms.  A machine learning [website](https://machinelearningmastery.com/hyperparameters-for-classification-machine-learning-algorithms/) was referenced in help to finding out on how to optimizing classification algorithms.  After hyperparameter training, the GradientBoostingClassifier and [XGBClassifier](https://www.kaggle.com/code/faressayah/hyperparameter-optimization-for-machine-learning?scriptVersionId=118252459) algorithm turned out to be the best by accuracy score. SVC,Ridge and KNeighborsClassifier were also trained and tested. Keras tuner was also used for a neural network.
+
 ### Results
+
+The gradient boosting and XGBClassifier model showed a 0.83 accuracy score.  To simply the model, survey answers were bucketed in two groups.  Zero has been classified as no, and one has been classified as yes.   Based on our problem statement, precision would be a way to measure how accurately the model classifies if someone has mental health coverage. Recall for our problem statement would be to accurately identify someone who has mental health coverage.  Both recall and precision were decent for this model.  This could be due to the limited dataset that had a skewed bias to more no responses to our question than yes responses.
+
+![ML](images/FP_ML_acc.png)
 
 The gradient boosting model showed a 0.83 accuracy score.
 
