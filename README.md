@@ -113,7 +113,6 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 
 ## Part 2 - Model and Analysis
 
-## Results
 
 ### Training and Testing Sets
 
@@ -152,7 +151,7 @@ The gradient boosting model showed a 0.83 accuracy score.
 
 ## Storyboard
 
-![story board](images/FP_story.png)
+![story board](images/FP_storyboard.png)
 
 
 ## Tableau Dashboard Demo
