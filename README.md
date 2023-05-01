@@ -145,6 +145,15 @@ The gradient boosting model showed a 0.83 accuracy score.
 
 ### Tableau Dashboard 
 
+
+A dashboard was created with Tableau Public.  Of the five worksheets created, three were used on the Dashboard.  The first worksheet (Number of Mental Health Coverage by Country) is a world map showing the counts of mental health coverage by country.  This worksheet is interactive because you can adjust the filters to show the different counts in each country for the different coverage responses: Yes, No, NA, I don't know, and Not eligible for coverage.  This map is interactive so that the user can select the specific count they are interested in seeing for each country.  
+
+The bar chart is an image from the third worksheet that shows if the respondents' company is a tech company or not, and whether or not the respondent works from home Always, Never or Sometimes.  We were interested in this number because we were curious if there is a relationship between mental health and working from home, and whether or not an employer would offer coverage for those employees working from home that would need mental health coverage.  
+
+The last worksheet used on the dashboard shows the percentages from the answers of the respondents as to whether they have a mental health disorder (yes, no, maybe) and if those respondents have mental health care coverage (Yes, No, NA, I don't know, Not eligible for Coverage).  This was interesting to see the correlation between someone who has a mental health disorder, and if they do or do not have mental health care coverage to treat the disorder. 
+
+Most importantly, we used a image showing the results of the accuracy score, confusion matrix, and classification report for the machine learning model on the dashboard to display the results.
+
 https://public.tableau.com/app/profile/stacey.marotta/viz/Mental_Health_FP/Dashboard1?publish=yes
 
 
