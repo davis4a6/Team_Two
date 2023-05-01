@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health and Employment</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body class="bg-dark">
+  <div class="wrapper">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">Mental Health Benefits</a>
+    </nav>
+  </div>
+  <div class="jumbotron">
+    <h1 class="display-4">Cities with Mental Health Employment Benefits</h1>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Do Employers in your city provide Mental Health Benefits?
+        <small> Don't see your city on here? Weigh In! </small></h3>
+      </div>
+      <div class="col-md-8">
+        <p>
+          Insert paragraph about why mental health is important. Why employers should offer mental health benefits. Talk about how 
+          to narrow down by cities, companies, and/or fields. This could be a future analysis to be done. etc.
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-dark text-white">
+    <div class="row">
+      <div class="col-md-3">
+        <form class="bg-dark">
+        <h2>Filter Search</h2>
+        <ul class="bg-dark">
+          <li class="bg-dark">
+            <label for="">Enter Age</label>
+            <input type="text" placeholder="21" id="datetime">
+          </li>
+          <li class="bg-dark">
+            <label for="">Enter City</label>
+            <input placeholder="Akron" type="text" id="city">
+          </li>
+          <li class="bg-dark">
+            <label for="">Enter Country</label>
+            <input placeholder="US" type="text" id="state">
+          </li>
+          <li class="bg-dark">
+            <label for="">Enter State</label>
+            <input placeholder="OH" type="text" id="state">
+          </li>
+          <li class="bg-dark">
+            <label for="">Remote[yes/no]</label>
+            <input placeholder="yes" type="text" id="country">
+          </li>
+          <li class="bg-dark">
+            <label for="">Tech Company? [0/1]</label>
+            <input placeholder="1" type="text" id="shape">
+          </li>
+      </div>
+      <div class="col-md-9">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Age</th>
+              <th>Country</th>
+              <th>WFH</th>
+              <th>Mental Health Coverage?</th>
+              <th>Tech Company?</th>
+              <th>Current Mental Health Disorder</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.12.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+
+</html>
