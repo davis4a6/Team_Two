@@ -138,7 +138,7 @@ The gradient boosting model showed a 0.83 accuracy score.
 ![ML](images/FP_ML_acc.png)
 
 
-## Part 3 - Summary
+## Part 3 - Dashboard & Demo
 
 ## Storyboard
 
