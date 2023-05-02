@@ -169,5 +169,5 @@ Recommendations for Future Analyses
 2. Minimize the number of variables: ex. Turn age into age-groups
 3. Create a website that users could use to filter through state, city, country, etc. for jobs that offer mental health benefits
 
-[Mental Health in the Workplace](https://davis4a6.github.io/Team_Two/)
+[Mental_Health_in_the_Workplace](https://davis4a6.github.io/Team_Two/)
 
