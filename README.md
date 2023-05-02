@@ -53,7 +53,7 @@ We selected our features based on three things:
     We also chose features on interest; if two variables could be associated with one another, or have a casual relationship based on a negative or positive correlation. For example, mental health coverage in tech,  mental health coverage while working from home?, and mental health coverage based on the country that you live in.
 
 3. Future Analyses & Recommendations
-     Comparing gender with current mental health disorders, and whether or not mental health coverage could show us some results worth looking into for future analyses and research. Comparing whether or not companies offer mental health coverage with Age and current mental health disorders could possibly show recommendations to companies to offer mental health coverage to their employees or not. These are all things we were thinking of while selecting our features.
+Comparing gender with current mental health disorders, and whether or not mental health coverage could show us some results worth looking into for future analyses and research. Comparing whether or not companies offer mental health coverage with Age and current mental health disorders could possibly show recommendations to companies to offer mental health coverage to their employees or not. These are all things we were thinking of while selecting our features.
 
 ![Alt text](images/Features.PNG)
 
@@ -62,6 +62,7 @@ We selected our features based on three things:
 There were a number of things we had to do in order to transform the given data into a form that was easier to interpret. First, we started off by renaming the columns so they could be more concise and easier to read while coding.
 
 When choosing features we had columns with:
+
 - Categorical Features; since algorithms are not designed to process textual data we decided to use one-hot encoding
 - Multiple missing values; we used `fillna()` to replace all null values with NA and dropped one column with over 1000 null values
 
@@ -162,11 +163,11 @@ https://public.tableau.com/app/profile/stacey.marotta/viz/Mental_Health_FP/Dashb
 
 ### Reflections and Recommendations for Future Analyses
 
-While reflecting on this project, we had concerns that our dataset would be to small, or inefficient due to all of the null values in each column and row. One thing that we would do differently is combine multiple datasets.
 
 Recommendations for Future Analyses
-1. Does working remotely have a positive or negative impact on one's mental health and employment?
-2. Do you find your employer is supportive of you and your mental health needs?
-3. Do companies support employees' mental health when working from home?
-4. Does having a mental health disorder have negative consequences in the workplace?  
+1. Re-do analysis using a bigger sample. Increase the accuracy score.
+2. Minimize the number of variables: ex. Turn age into age-groups
+3. Create a website that users could use to filter through state, city, country, etc. for jobs that offer mental health benefits
+
+[website](https://davis4a6.github.io/Team_Two/)
 
