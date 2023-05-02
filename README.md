@@ -53,7 +53,7 @@ We selected our features based on three things:
     We also chose features on interest; if two variables could be associated with one another, or have a casual relationship based on a negative or positive correlation. For example, mental health coverage in tech,  mental health coverage while working from home?, and mental health coverage based on the country that you live in.
 
 3. Future Analyses & Recommendations
-     Comparing gender with current mental health disorders, and whether or not mental health coverage could show us some results worth looking into for future analyses and research. Comparing whether or not companies offer mental health coverage with Age and current mental health disorders could possibly show recommendations to companies to offer mental health coverage to their employees or not. These are all things we were thinking of while selecting our features.
+Comparing gender with current mental health disorders, and whether or not mental health coverage could show us some results worth looking into for future analyses and research. Comparing whether or not companies offer mental health coverage with Age and current mental health disorders could possibly show recommendations to companies to offer mental health coverage to their employees or not. These are all things we were thinking of while selecting our features.
 
 ![Alt text](images/Features.PNG)
 
@@ -62,6 +62,7 @@ We selected our features based on three things:
 There were a number of things we had to do in order to transform the given data into a form that was easier to interpret. First, we started off by renaming the columns so they could be more concise and easier to read while coding.
 
 When choosing features we had columns with:
+
 - Categorical Features; since algorithms are not designed to process textual data we decided to use one-hot encoding
 - Multiple missing values; we used `fillna()` to replace all null values with NA and dropped one column with over 1000 null values
 
@@ -113,7 +114,6 @@ By using the query tool in PGAdmin, a join between the EMPLOYEES table, and the 
 
 ## Part 2 - Model and Analysis
 
-## Results
 
 ### Training and Testing Sets
 
@@ -121,38 +121,53 @@ The training and testing sets were selected using `scikit learn’s` `train_test
 
 ### Machine Learning Model
 
+The output to our question is a binary.  In this case, yes or no are our binary outputs. Our data included a lot of categorical data, so an encoder was required.  Originally, we used the one hot encoder. The outputs of our model showed little to no variation between different algorithms.  We swapped to an ordinal encoder, and the results between algorithms showed more variation.  This is important to establish the reliability of our algorithm.
+
+Classification algorithms are know to accurately predict binary outputs, so that is where we started our algorithm search.  There are several common classification algorithms such as logistic regression and random forests.  The team decided to start with logistic regression, and based on the results it did an okay job at predicting the proper result based on our train and test split.  The logical next step was to try out the random forest.  The results were better as hyper-parameters were not optimized.
+
+Hyperparameter training was ran on several different algorithms.  A machine learning [website](https://machinelearningmastery.com/hyperparameters-for-classification-machine-learning-algorithms/) was referenced in help to finding out on how to optimizing classification algorithms.  After hyperparameter training, the GradientBoostingClassifier and [XGBClassifier](https://www.kaggle.com/code/faressayah/hyperparameter-optimization-for-machine-learning?scriptVersionId=118252459) algorithm turned out to be the best by accuracy score. SVC,Ridge and KNeighborsClassifier were also trained and tested. Keras tuner was also used for a neural network.
+
 ### Results
+
+The gradient boosting and XGBClassifier model showed a 0.83 accuracy score.  To simply the model, survey answers were bucketed in two groups.  Zero has been classified as no, and one has been classified as yes.   Based on our problem statement, precision would be a way to measure how accurately the model classifies if someone has mental health coverage. Recall for our problem statement would be to accurately identify someone who has mental health coverage.  Both recall and precision were decent for this model.  This could be due to the limited dataset that had a skewed bias to more no responses to our question than yes responses.
+
+![ML](images/FP_ML_acc.png)
 
 The gradient boosting model showed a 0.83 accuracy score.
 
 ![ML](images/FP_ML_acc.png)
 
-## Part 3 - Summary
+
+## Part 3 - Dashboard & Demo
 
 ## Storyboard
 
-![story board](images/FP_story.png)
+![story board](images/FP_storyboard.png)
 
 ### Tableau Dashboard 
 
-https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard1?publish=yes
 
-## Tableau Dashboard Demo
+A dashboard was created with Tableau Public.  Of the five worksheets created, three were used on the Dashboard.  The first worksheet (Number of Mental Health Coverage by Country) is a world map showing the counts of mental health coverage by country.  This worksheet is interactive because you can adjust the filters to show the different counts in each country for the different coverage responses: Yes, No, NA, I don't know, and Not eligible for coverage.  This map is interactive so that the user can select the specific count they are interested in seeing for each country.  
+
+The bar chart is an image from the third worksheet that shows if the respondents' company is a tech company or not, and whether or not the respondent works from home Always, Never or Sometimes.  We were interested in this number because we were curious if there is a relationship between mental health and working from home, and whether or not an employer would offer coverage for those employees working from home that would need mental health coverage.  
+
+The last worksheet used on the dashboard shows the percentages from the answers of the respondents as to whether they have a mental health disorder (yes, no, maybe) and if those respondents have mental health care coverage (Yes, No, NA, I don't know, Not eligible for Coverage).  This was interesting to see the correlation between someone who has a mental health disorder, and if they do or do not have mental health care coverage to treat the disorder. 
+
+Most importantly, we used a image showing the results of the accuracy score, confusion matrix, and classification report for the machine learning model on the dashboard to display the results.
+
+https://public.tableau.com/app/profile/stacey.marotta/viz/Mental_Health_FP/Dashboard1?publish=yes
 
 
-https://public.tableau.com/app/profile/stacey.marotta/viz/MentalHealthFinalProject/Dashboard2?publish=yes
-
-
-![Screenshot 2023-04-26 181157](https://user-images.githubusercontent.com/45715246/234716059-55ec984d-ddf5-4837-81d3-ed1b07522228.png)
+![Dashboard](images/FP_Tableau_Dash.png)
 
 
 ### Reflections and Recommendations for Future Analyses
 
-While reflecting on this project, we had concerns that our dataset would be to small, or inefficient due to all of the null values in each column and row. One thing that we would do differently is combine multiple datasets.
 
 Recommendations for Future Analyses
-1. Does working remotely have a positive or negative impact on one's mental health and employment?
-2. Do you find your employer is supportive of you and your mental health needs?
-3. Do companies support employees' mental health when working from home?
-4. Does having a mental health disorder have negative consequences in the workplace?  
+1. Re-do analysis using a bigger sample. Increase the accuracy score.
+2. Minimize the number of variables: ex. Turn age into age-groups
+3. Create a website that users could use to filter through state, city, country, etc. for jobs that offer mental health benefits
+
+[Mental_Health_in_the_Workplace](https://davis4a6.github.io/Team_Two/)
 
