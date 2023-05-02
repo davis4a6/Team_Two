@@ -10,6 +10,22 @@
 - Visual Studio Code
 - Tableau
 
+# Dependencies
+
+hvplot==0.8.0
+imbalanced_learn==0.10.1
+kt_legacy==1.0.5
+matplotlib==3.5.2
+numpy==1.21.5
+optuna==3.1.1
+pandas==1.3.5
+scikit_learn==1.0.2
+seaborn==0.11.2
+SQLAlchemy==1.4.39
+tensorflow==2.11.0
+tensorflow_intel==2.11.0
+xgboost==1.6.2
+
 ## Communication Plan
 
 Our team created a group on `Slack` in order to communicate and share links with each other. We also created a recurring `Zoom` link and session to meet on a weekly basis and discuss where we are at with our project, as well as what tasks we still need to accomplish to get each deliverable completed. Our team has been really open with working together and offering help to one another when needed.
