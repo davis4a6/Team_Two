@@ -9,7 +9,7 @@
 - Jupyter Notebooks with Python
 - Visual Studio Code
 - Tableau
-- JaVascript
+- JaVaScript
 
 # Dependencies
 
